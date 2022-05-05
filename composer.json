@@ -1,0 +1,21 @@
+{
+    "name": "sergey00708/sergeylogger",
+    "description": "SergeyLogger",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sergey00708\\SergeyLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergey",
+            "email": "Fenix00708@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/log": "^3.0"
+    }
+}
