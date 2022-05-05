@@ -4,8 +4,6 @@ namespace Sergey00708\SergeyLogger;
 use DateTime;
 use Psr\Log\AbstractLogger;
 
-require __DIR__ . '/../vendor/autoload.php';
-
 class Logger extends AbstractLogger
 {
     private array $writers;
